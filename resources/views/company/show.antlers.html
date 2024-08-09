@@ -1,0 +1,26 @@
+<div class="container-lg py-4">
+
+    <div class="text-5xl py-4 mb-4 font-medium text-orange-500">
+        {{ title }}
+    </div>
+    {{ if featured_image }}
+    <div class="flex mb-4">
+        <div>
+            {{featured_image}}
+            <img src="{{ url }}" style="width: 70%;" class="mx-auto" alt="{{ title }}">
+            {{/featured_image}}
+        </div>
+        <div class="text-justify w-50 my-auto">
+            {{ content }}
+        </div>
+    </div>
+
+    {{ else }}
+
+    <div class="flex mb-4">
+        <div class="text-justify w-75 my-auto">
+            {{ content }}
+        </div>
+    </div>
+    {{ /if }}
+</div>

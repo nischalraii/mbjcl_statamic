@@ -1,0 +1,13 @@
+name: Admin
+super: true
+id: 88f3777a-2e52-4ea2-a87c-32d2fe53eec5
+password_hash: $2y$10$MsY8P9EyvmYoO2OFRwfmCu8NrBP9a03V4dpKZcBpPW.8zPHt3WvKu
+preferences:
+  collections:
+    company:
+      columns:
+        - title
+        - slug
+        - date
+        - status
+        - featured_image

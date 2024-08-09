@@ -1,0 +1,6 @@
+title: Gallery
+template: gallery/show
+revisions: false
+date_behavior:
+  past: public
+  future: private
